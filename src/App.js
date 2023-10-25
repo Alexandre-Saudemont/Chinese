@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import {NavLink} from 'react-router-dom';
+import Home from './Components/Home/Home';
 
 function App() {
 	return (
 		<div className='App'>
-			<NavLink to='/'>Home</NavLink>
-			<NavLink to='/login'>Login</NavLink>
-			<NavLink to='/register'>Register</NavLink>
+			<Home />
 		</div>
 	);
 }

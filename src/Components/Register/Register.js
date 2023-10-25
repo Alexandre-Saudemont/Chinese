@@ -44,11 +44,11 @@ function Register() {
 				case 'auth/invalid-email':
 					customErrorMessage = 'Email invalide';
 					break;
-				case 'auth/weak-password':
-					customErrorMessage = 'Votre mot de passe doit contenir au minimum 6 caractères';
-					break;
 				case 'auth/email-already-in-use':
 					customErrorMessage = 'Cet Email est déjà utilisé';
+					break;
+				case 'auth/weak-password':
+					customErrorMessage = 'Votre mot de passe doit contenir au minimum 6 caractères';
 					break;
 				case 'auth/operation-not-allowed':
 					customErrorMessage = 'Opération non autorisée';
